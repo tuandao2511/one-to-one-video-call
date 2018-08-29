@@ -1,0 +1,50 @@
+{
+  "name": "draggabilly",
+  "description": "make that shiz draggable",
+  "main": "draggabilly.js",
+  "dependencies": {
+    "get-size": "^2.0.2",
+    "unidragger": "^2.3.0"
+  },
+  "devDependencies": {
+    "qunit": "^2.5.1",
+    "jquery-bridget": "^2.0.0"
+  },
+  "homepage": "https://draggabilly.desandro.com",
+  "authors": [
+    "David DeSandro"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "drag",
+    "draggable"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "contributing.md",
+    "Gruntfile.js",
+    "gulpfile.js",
+    "package.json",
+    "sandbox"
+  ],
+  "version": "2.2.0",
+  "_release": "2.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.0",
+    "commit": "aa5364ffb7696c56330df0496e9d8b2d785011b5"
+  },
+  "_source": "https://github.com/desandro/draggabilly.git",
+  "_target": "^2.2.0",
+  "_originalSource": "draggabilly",
+  "_direct": true
+}

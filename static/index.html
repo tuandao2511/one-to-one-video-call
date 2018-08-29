@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/kurento.css">
+    <title>Kurento one-to-one call</title>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/draggabilly/dist/draggabilly.pkgd.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="bower_components/kurento-utils/js/kurento-utils.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div>
+        <video id=videoOutput autoplay width="640px" height="480px"></video>
+    </div>
+    <div id="videoSmall">
+        <video id=videoInput autoplay width="240px" height="180px">
+    </div>
+    <dir>
+        from: <input id=user name="from" type="text">
+        <button id="register" onclick="register()">Register</button>
+    </dir>
+    <div>
+        to: <input id="peer" name="to" type="text">
+    </div>
+    <div>
+        <button id="call" onclick="call()">Call</button>
+        <button id="stop" onclick="stop()">Stop</button>
+    </div>
+</body>
+</html>
